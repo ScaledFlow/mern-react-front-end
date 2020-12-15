@@ -9,7 +9,7 @@ import './UserItem.css';
 // console.log('userItems.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 const UserItem = props => {
-  console.log(props);
+  // console.log(props);
   return (
     <li className="user-item">
       <Card className="user-item__content">

@@ -8,7 +8,7 @@ import './Card.css';
 
 const Card = props => {
   // console.log("card props");
-  console.log(props);
+  // console.log(props);
   // console.log(props.className);
   // console.log(props.style);
   // console.log(props.children);

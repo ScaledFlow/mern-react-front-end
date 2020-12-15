@@ -26,7 +26,7 @@ const PlaceItem = props => {
 
   const confirmDeleteHandler = () => {
     setShowConfirmModal(false);
-    console.log('DELETING...');
+    // console.log('DELETING...');
   };
 
   return (

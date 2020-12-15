@@ -16,12 +16,12 @@ const MainNavigation = props => {
 
   const openDrawerHandler = () => {
     setDrawerIsOpen(true);
-    console.log(drawerIsOpen);
+    // console.log(drawerIsOpen);
   };
 
   const closeDrawerHandler = () => {
     setDrawerIsOpen(false);
-    console.log(drawerIsOpen);
+    // console.log(drawerIsOpen);
   };
 
   return (
