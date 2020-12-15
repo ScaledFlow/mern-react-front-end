@@ -2,7 +2,7 @@ import React from 'react';
 
 import UsersList from '../components/UsersList';
 
-var d = new Date();
+// var d = new Date();
 // console.log('users.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

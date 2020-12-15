@@ -5,7 +5,7 @@ import { CSSTransition } from 'react-transition-group';
 import Backdrop from './Backdrop';
 import './Modal.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('modal.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

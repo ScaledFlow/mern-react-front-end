@@ -1,6 +1,6 @@
 import { useCallback, useReducer } from 'react';
 
-var d = new Date();
+// var d = new Date();
 // console.log('form.hooks.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

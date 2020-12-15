@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Avatar.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('Avatar.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

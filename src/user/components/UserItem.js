@@ -5,7 +5,7 @@ import Avatar from '../../shared/components/UIElements/Avatar';
 import Card from '../../shared/components/UIElements/Card';
 import './UserItem.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('userItems.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 const UserItem = props => {

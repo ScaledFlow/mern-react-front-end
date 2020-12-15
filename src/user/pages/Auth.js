@@ -12,7 +12,7 @@ import { useForm } from '../../shared/hooks/form-hook';
 import { AuthContext } from '../../shared/context/auth-context';
 import './Auth.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('auth.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

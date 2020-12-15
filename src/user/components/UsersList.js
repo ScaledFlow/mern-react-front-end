@@ -4,7 +4,7 @@ import UserItem from './UserItem';
 import Card from '../../shared/components/UIElements/Card';
 import './UsersList.css';
 
-var d = new Date();
+// var d = new Date();
 //console.log('userList.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 const UsersList = props => {

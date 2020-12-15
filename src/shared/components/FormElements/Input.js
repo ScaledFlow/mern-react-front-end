@@ -3,7 +3,7 @@ import React, { useReducer, useEffect } from 'react';
 import { validate } from '../../util/validators';
 import './Input.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('input.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './Backdrop.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('backDrop.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 const Backdrop = props => {

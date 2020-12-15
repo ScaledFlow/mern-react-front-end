@@ -7,7 +7,7 @@ import SideDrawer from './SideDrawer';
 import Backdrop from '../UIElements/Backdrop';
 import './MainNavigation.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('mainNavigation.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

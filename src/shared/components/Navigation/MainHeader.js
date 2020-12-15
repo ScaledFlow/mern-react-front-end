@@ -2,7 +2,7 @@ import React from 'react';
 
 import './MainHeader.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('mainHeader.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

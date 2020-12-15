@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Card.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('card.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

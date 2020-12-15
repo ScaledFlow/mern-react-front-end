@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 
 import './Map.css';
 
-var d = new Date();
+// var d = new Date();
 // console.log('map.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 

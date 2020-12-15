@@ -14,7 +14,7 @@ import Auth from './user/pages/Auth';
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import { AuthContext } from './shared/context/auth-context';
 
-var d = new Date();
+// var d = new Date();
 // console.log('app.js ' + d.getSeconds() + " " + d.getMilliseconds());
 
 
