@@ -1,9 +1,5 @@
 import { useCallback, useReducer } from 'react';
 
-// var d = new Date();
-// console.log('form.hooks.js ' + d.getSeconds() + " " + d.getMilliseconds());
-
-
 const formReducer = (state, action) => {
   switch (action.type) {
     case 'INPUT_CHANGE':

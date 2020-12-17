@@ -7,27 +7,20 @@ import SideDrawer from './SideDrawer';
 import Backdrop from '../UIElements/Backdrop';
 import './MainNavigation.css';
 
-// var d = new Date();
-// console.log('mainNavigation.js ' + d.getSeconds() + " " + d.getMilliseconds());
-
-
 const MainNavigation = props => {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
 
   const openDrawerHandler = () => {
     setDrawerIsOpen(true);
-    // console.log(drawerIsOpen);
   };
 
   const closeDrawerHandler = () => {
     setDrawerIsOpen(false);
-    // console.log(drawerIsOpen);
   };
 
   return (
     <React.Fragment>
       {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
-      {/* ${console.log(drawerIsOpen)} */}
       <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
         <nav className="main-navigation__drawer-nav">
           <NavLinks />

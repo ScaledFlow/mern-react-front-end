@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 
 import './Button.css';
 
-// var d = new Date();
-// console.log('button.js ' + d.getSeconds() + " " + d.getMilliseconds());
-
-
 const Button = props => {
   if (props.href) {
     return (

@@ -2,10 +2,6 @@ import React, { useRef, useEffect } from 'react';
 
 import './Map.css';
 
-// var d = new Date();
-// console.log('map.js ' + d.getSeconds() + " " + d.getMilliseconds());
-
-
 const Map = props => {
   const mapRef = useRef();
   

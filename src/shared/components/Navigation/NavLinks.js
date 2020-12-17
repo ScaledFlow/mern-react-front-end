@@ -4,10 +4,6 @@ import { NavLink } from 'react-router-dom';
 import { AuthContext } from '../../context/auth-context';
 import './NavLinks.css';
 
-// var d = new Date();
-// console.log('navLink.js ' + d.getSeconds() + " " + d.getMilliseconds());
-
-
 const NavLinks = props => {
   const auth = useContext(AuthContext);
 

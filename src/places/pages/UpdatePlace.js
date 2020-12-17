@@ -11,7 +11,6 @@ import {
 import { useForm } from '../../shared/hooks/form-hook';
 import './PlaceForm.css';
 
-
 const DUMMY_PLACES = [
   {
     id: 'p1',
@@ -82,7 +81,7 @@ const UpdatePlace = () => {
 
   const placeUpdateSubmitHandler = event => {
     event.preventDefault();
-    // console.log(formState.inputs);
+    console.log(formState.inputs);
   };
 
   if (!identifiedPlace) {

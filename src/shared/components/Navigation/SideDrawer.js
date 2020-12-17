@@ -4,12 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 
 import './SideDrawer.css';
 
-// var d = new Date();
-// console.log('sideDrawer.js ' + d.getSeconds() + " " + d.getMilliseconds());
-
-
 const SideDrawer = props => {
-  // console.log(props);
   const content = (
     <CSSTransition
       in={props.show}

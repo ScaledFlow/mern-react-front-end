@@ -14,14 +14,8 @@ import Auth from './user/pages/Auth';
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import { AuthContext } from './shared/context/auth-context';
 
-// var d = new Date();
-// console.log('app.js ' + d.getSeconds() + " " + d.getMilliseconds());
-
-
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  // console.log('is logged in ' + isLoggedIn);
 
   const login = useCallback(() => {
     setIsLoggedIn(true);
@@ -34,9 +28,7 @@ const App = () => {
   let routes;
 
   if (isLoggedIn) {
-   // console.log('is logged in');
     routes = (
-
       <Switch>
         <Route path="/" exact>
           <Users />
@@ -54,7 +46,6 @@ const App = () => {
       </Switch>
     );
   } else {
-    // console.log('is not logged in');
     routes = (
       <Switch>
         <Route path="/" exact>
